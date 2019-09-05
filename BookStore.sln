@@ -16,19 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Core", "src\BookS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Infrastructure", "src\BookStore.Infrastructure\BookStore.Infrastructure.csproj", "{7F72D96B-D2AB-45ED-9C00-E3AC0C72E8BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WpfApp", "src\BookStore.WpfApp\BookStore.WpfApp.csproj", "{5E6FD042-2C91-4988-91AB-0E99976624A3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Web", "src\BookStore.Web\BookStore.Web.csproj", "{45678CD9-28D9-40AF-98A0-BAD2D6EFB65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.UnitTests", "tests\BookStore.UnitTests\BookStore.UnitTests.csproj", "{C35478F4-4377-4B52-8076-C427A1DC6AB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.UnitTests", "tests\BookStore.UnitTests\BookStore.UnitTests.csproj", "{C35478F4-4377-4B52-8076-C427A1DC6AB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.IntegrationTests", "tests\BookStore.IntegrationTests\BookStore.IntegrationTests.csproj", "{7EDAB2A1-C45C-44AE-9912-B9295624489B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.IntegrationTests", "tests\BookStore.IntegrationTests\BookStore.IntegrationTests.csproj", "{7EDAB2A1-C45C-44AE-9912-B9295624489B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.FunctionalTests", "tests\BookStore.FunctionalTests\BookStore.FunctionalTests.csproj", "{CA3267D6-27BB-499F-9C07-A157D64DE9F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Domain", "src\BookStore.Domain\BookStore.Domain.csproj", "{410C8749-2444-4EC9-83A7-A5630E04353D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data", "src\BookStore.Data\BookStore.Data.csproj", "{33748FAF-2167-419E-BE40-E48A0591478D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.FunctionalTests", "tests\BookStore.FunctionalTests\BookStore.FunctionalTests.csproj", "{CA3267D6-27BB-499F-9C07-A157D64DE9F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,10 +38,6 @@ Global
 		{7F72D96B-D2AB-45ED-9C00-E3AC0C72E8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F72D96B-D2AB-45ED-9C00-E3AC0C72E8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F72D96B-D2AB-45ED-9C00-E3AC0C72E8BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E6FD042-2C91-4988-91AB-0E99976624A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E6FD042-2C91-4988-91AB-0E99976624A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E6FD042-2C91-4988-91AB-0E99976624A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E6FD042-2C91-4988-91AB-0E99976624A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45678CD9-28D9-40AF-98A0-BAD2D6EFB65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45678CD9-28D9-40AF-98A0-BAD2D6EFB65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45678CD9-28D9-40AF-98A0-BAD2D6EFB65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,14 +54,6 @@ Global
 		{CA3267D6-27BB-499F-9C07-A157D64DE9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA3267D6-27BB-499F-9C07-A157D64DE9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA3267D6-27BB-499F-9C07-A157D64DE9F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{410C8749-2444-4EC9-83A7-A5630E04353D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{410C8749-2444-4EC9-83A7-A5630E04353D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{410C8749-2444-4EC9-83A7-A5630E04353D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{410C8749-2444-4EC9-83A7-A5630E04353D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{33748FAF-2167-419E-BE40-E48A0591478D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33748FAF-2167-419E-BE40-E48A0591478D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33748FAF-2167-419E-BE40-E48A0591478D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33748FAF-2167-419E-BE40-E48A0591478D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,13 +61,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{69E6BD3C-6F71-4087-A2D2-6EF8C2D15896} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
 		{7F72D96B-D2AB-45ED-9C00-E3AC0C72E8BB} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
-		{5E6FD042-2C91-4988-91AB-0E99976624A3} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
 		{45678CD9-28D9-40AF-98A0-BAD2D6EFB65C} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
 		{C35478F4-4377-4B52-8076-C427A1DC6AB9} = {35628EB1-50AE-4A47-AB38-7FBFF15356B8}
 		{7EDAB2A1-C45C-44AE-9912-B9295624489B} = {35628EB1-50AE-4A47-AB38-7FBFF15356B8}
 		{CA3267D6-27BB-499F-9C07-A157D64DE9F7} = {35628EB1-50AE-4A47-AB38-7FBFF15356B8}
-		{410C8749-2444-4EC9-83A7-A5630E04353D} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
-		{33748FAF-2167-419E-BE40-E48A0591478D} = {11D925F5-D849-4AE7-9B79-F81625352C8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC7AD37-3E81-4CB3-9C97-DB24E86A25FC}
