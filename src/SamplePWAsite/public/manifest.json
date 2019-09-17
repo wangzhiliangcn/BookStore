@@ -1,0 +1,16 @@
+﻿{
+  "dir": "ltr",
+  "lang": "en-us",
+  "name": "My Sample PWA",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "http://localhost:1337",
+  "short_name": "SamplePWA",
+  "theme_color": "transparent",
+  "description": "A sample PWA for testing purposes",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": []
+}
